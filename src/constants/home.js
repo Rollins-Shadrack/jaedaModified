@@ -32,7 +32,7 @@ export const socialContent = [
 export const servicesContent = {
   "Distribution and Marketing": {
     icon: "/images/marketing.png",
-    img: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGRpc3RyaWJ1dGlvbiUyMGFuZCUyMG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    img: "/images/passion.avif",
     title: "Distribution and Marketing",
     desc: "Elevate your distribution and marketing strategies through strategic goal-setting, revenue planning, targeted market initiatives",
     addInfo:
@@ -40,7 +40,7 @@ export const servicesContent = {
   },
   "Import Support": {
     icon: "/images/support.png",
-    img: "https://i.pinimg.com/474x/05/84/86/05848643762401acdf1f21b14eb35a28.jpg",
+    img: "/images/import.jpg",
     title: "Import Support",
     desc: "Enhance your import strategies with strategic goal-setting, revenue planning, and targeted market initiatives.",
     addInfo:
@@ -48,7 +48,7 @@ export const servicesContent = {
   },
   Merchandising: {
     icon: "/images/merchandising.png",
-    img: "https://media.istockphoto.com/id/1385196919/photo/inflation-concept.jpg?b=1&s=170667a&w=0&k=20&c=kaezh3QQC46Tf9XBtBehTfFlg-TyIoma-8wtPcWIJJI=",
+    img: "/images/merchandising.jpg",
     title: "Merchandising",
     desc: "Elevate your merchandising approach through strategic goal-setting, revenue planning, and targeted market initiatives",
     addInfo:
@@ -56,7 +56,7 @@ export const servicesContent = {
   },
   "General Supplies": {
     icon: "/images/general.png",
-    img: "https://media.istockphoto.com/id/1400287455/photo/generic-50-percent-off-coupon-voucher-promo-qr-code-template-mockup-smartphone-display-screen.jpg?s=612x612&w=0&k=20&c=DAJCvpO0isf9zuRhtOp6hJAo0aiOTMaRTFzG0JfVEQs=",
+    img: "/images/general.jpg",
     title: "General Supplies",
     desc: "Elevate your general supplies approach through strategic goal-setting, revenue planning, and targeted market initiatives",
     addInfo:
