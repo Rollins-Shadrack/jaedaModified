@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="block lg:flex gap-20 mb-10 pb-10">
           <div className="w-full lg:w-4/12 mb-10 lg:mb-0">
             <Link href="/" className="mb-4 inline-block">
-              <Image src={footerContent.about.logo} width={150} height={120} className="" />
+              <Image src={footerContent.about.logo} width={150} height={120} className="" alt="rollinscodes.com" />
             </Link>
             <p className="leading-relaxed mb-7">{footerContent.about.description}</p>
           </div>

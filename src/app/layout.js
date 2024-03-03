@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer/>
           <a href="https://wa.me/254702635434" target="_blank" className="fixed bottom-20 right-5  rounded-full">
-          <Image src={"/images/whatsapp.svg"} width={70} height={70} />
+          <Image src={"/images/whatsapp.svg"} width={70} height={70} alt="rollinscodes,com" />
         </a>
         </div>
         </body>

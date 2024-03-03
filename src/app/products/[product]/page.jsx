@@ -17,16 +17,16 @@ const SingleProductDetails = () => {
       <Container>
         <div className="lg:flex justify-between">
           <div className="lg:w-5/12 w-full  ">
-            <Image src={selectedProduct?.img} width={500} height={200} className="object-fit h-[400px] w-full" />
+            <Image src={selectedProduct?.img} width={500} height={200} className="object-fit h-[400px] w-full" alt="rollinscodes.com" />
           </div>
           <div className="lg:w-7/12 w-full">
             <div className="border rounded-xl relative py-14 px-5">
               <div className="flex items-center justify-start mb-5">
-                <Image src="/images/star.svg" width={20} height={20} />
-                <Image src="/images/star.svg" width={20} height={20} />
-                <Image src="/images/star.svg" width={20} height={20} />
-                <Image src="/images/star.svg" width={20} height={20} />
-                <Image src="/images/star.svg" width={20} height={20} />
+                <Image src="/images/star.svg" width={20} height={20} alt="rollinscodes.com" />
+                <Image src="/images/star.svg" width={20} height={20} alt="rollinscodes.com" />
+                <Image src="/images/star.svg" width={20} height={20} alt="rollinscodes.com" />
+                <Image src="/images/star.svg" width={20} height={20} alt="rollinscodes.com" />
+                <Image src="/images/star.svg" width={20} height={20} alt="rollinscodes.com" />
                 <span className="px-1">{selectedProduct?.rating}</span>
               </div>
 
@@ -45,7 +45,7 @@ const SingleProductDetails = () => {
               <a key={idx} href={`/products/${card.id}`} className="relative">
                 <Card className="pb-5 rounded-lg bg-white shadow-xl  flex-shrink-0 h-[150px] min-w-[150px]">
                   <div className="h-full w-full relative">
-                    <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" />
+                    <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" alt="rollinscodes.com" />
                   </div>
                 </Card>
               </a>

@@ -11,14 +11,14 @@ const Services = () => {
     if (servicesContent) {
       setActiveTab(Object.keys(servicesContent)[0]);
     }
-  }, [servicesContent]);
+  }, []);
   return (
     <section id="services" className="py-10">
       <Container>
         <h1 className="font-bold text-gray-500 ">Our Services</h1>
         <h1 className="font-semibold text-lg lg:text-xl my-5">
           {" "}
-          Empowering Growth: <span className="text-gray-500">From Imports to Business Brilliance, We've got you covered</span>
+          Empowering Growth: <span className="text-gray-500">From Imports to Business Brilliance, We have got you covered</span>
         </h1>
 
         <div className="flex cursor-pointer space-x-5 overflow-x-auto no-scrollbar">
@@ -42,7 +42,7 @@ const Services = () => {
 
               <div className="flex justify-between  items-center">
                 <div className="w-2/12">
-                  <Image src={servicesContent[activeTab].icon} width={48} height={48} className="object-cover" />
+                  <Image src={servicesContent[activeTab].icon} width={48} height={48} className="object-cover" alt="rolliscodes.com" />
                 </div>
                 <div className="w-10/12">
                   <h1 className="text-lg lg:text-xl font-bold my-4">{servicesContent[activeTab].desc}</h1>
@@ -52,7 +52,7 @@ const Services = () => {
               <p className="">{servicesContent[activeTab].addInfo}</p>
             </div>
             <div className="lg:w-5/12 w-full">
-              <img src={servicesContent[activeTab].img} alt="jaeda" className="w-full object-cover h-100 rounded-xl" />
+              <Image width={400} height={400} src={servicesContent[activeTab].img} alt="jaeda" className="w-full object-cover h-100 rounded-xl" />
             </div>
           </div>
         )}

@@ -15,20 +15,21 @@ const Products = () => {
   const [isEnd, setIsEnd] = useState(null);
   const [isBeginning, setIsBeginning] = useState(null);
   const sliderRef = useRef(null);
-  useEffect(() => {
-    setIsEnd(sliderRef.current?.swiper.isEnd);
-    setIsBeginning(sliderRef.current?.swiper.isBeginning);
-  });
 
-  const prevHandler = useCallback(() => {
-    if (!sliderRef.current) return;
-    sliderRef.current.swiper.slidePrev();
-  });
+useEffect(() => {
+  setIsEnd(sliderRef.current?.swiper.isEnd);
+  setIsBeginning(sliderRef.current?.swiper.isBeginning);
+}, [slideIndex]);
 
-  const nextHandler = useCallback(() => {
-    if (!sliderRef.current) return;
-    sliderRef.current.swiper.slideNext();
-  });
+ const prevHandler = useCallback(() => {
+   if (!sliderRef.current) return;
+   sliderRef.current.swiper.slidePrev();
+ }, [sliderRef]);
+
+ const nextHandler = useCallback(() => {
+   if (!sliderRef.current) return;
+   sliderRef.current.swiper.slideNext();
+ }, [sliderRef]);
   return (
     <section id="products" className="my-10">
       <Container className="overflow-x-hidden">
@@ -84,7 +85,7 @@ const Products = () => {
                 <Card className="pb-5 rounded-lg bg-white  mt-5 w-full lg:w-[220px] h-[170px] shadow-xl relative">
                   <a href={`/products/${card.id}`}>
                     <div className="h-full w-full relative">
-                      <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" />
+                      <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" alt="rollinscodes.com" />
                       <div className="flex items-center justify-center absolute -bottom-10 w-full">
                         <div className=" w-4/5 bg-white rounded-xl text-gray-600 font-bold shadow-xl flex flex-col items-center py-2">
                           <p className=" ">{card.name}</p>

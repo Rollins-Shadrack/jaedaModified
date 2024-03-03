@@ -15,7 +15,7 @@ const ProductsSection = () => {
               <Link href={`/products/${card.id}`} key={idx} className="overflow-visible h-[200px]">
                 <Card className="pb-5 rounded-lg bg-white  mt-5 w-full lg:w-[180px] h-[170px] shadow-xl relative">
                   <div className="h-full w-full relative">
-                    <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" />
+                    <Image src={card.img} width={150} height={110} className="h-full w-full object-fill" alt="rollinscodes.com" />
                     <div className="flex items-center justify-center absolute -bottom-10 w-full">
                       <div className=" w-4/5 bg-white rounded-xl text-gray-600 font-bold shadow-xl flex flex-col items-center py-2">
                         <p className="truncate">{card.name}</p>

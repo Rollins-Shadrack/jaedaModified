@@ -34,13 +34,13 @@ const ContactForm = () => {
     <div>
       <h1 className="md:text-3xl text-xl text-brandRed font-bold text-center mb-3">Contact Us</h1>
 
-      <p className="text-gray-500 text-lg text-center">We'd love to talk about how we can help you</p>
+      <p className="text-gray-500 text-lg text-center">We would love to talk about how we can help you</p>
 
       <Container className="grid grid-cols-1 md:grid-cols-2 gap-8 my-5">
         <Card className="">
           <CardHeader>
             <p className="text-gray-500 text-lg mb-3 font-bold">
-              Let's get in <span className="text-brandRed">Touch</span>
+              Let us get in <span className="text-brandRed">Touch</span>
             </p>
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">

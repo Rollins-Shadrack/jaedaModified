@@ -22,7 +22,7 @@ const Hero = () => {
               {socialContent &&
                 socialContent.map((social, idx) => (
                   <a key={idx} href={social.link} target="blank">
-                    <Image src={social.img} width={30} height={30} />
+                    <Image src={social.img} width={30} height={30} alt="rollinscodes.com" />
                   </a>
                 ))}
             </div>
@@ -30,25 +30,37 @@ const Hero = () => {
           <div className="lg:w-6/12 space-y-2 ">
             <div className="flex space-x-2 items-stretch">
               <div className=" w-7/12 ">
-                <Image src="/images/hero4.png" width={397} height={20} alt="opensaas" className="object-cover w-full h-full rounded-2xl" />
+                <Image src="/images/hero4.png" width={397} height={20} alt="rollinscodes.com" className="object-cover w-full h-full rounded-2xl" />
               </div>
               <div className=" w-5/12 self-end space-y-2">
                 <div className="grid grid-cols-2 gap-2">
                   <div className="">
-                    <Image src="/images/hero3.png" width={437} height={437} alt="opensaas" className="object-cover w-full h-full rounded-2xl" />
+                    <Image
+                      src="/images/hero3.png"
+                      width={437}
+                      height={437}
+                      alt="rollinscodes.com"
+                      className="object-cover w-full h-full rounded-2xl"
+                    />
                   </div>
                   <div className="bg-black rounded-2xl rounded-tr-[200px]"></div>
                 </div>
-                <Image src="/images/hero2.png" width={374} height={392} alt="opensaas" className="object-cover w-full h-full rounded-2xl" />
+                <Image src="/images/hero2.png" width={374} height={392} alt="rollinscodes.com" className="object-cover w-full h-full rounded-2xl" />
               </div>
             </div>
             <div className="flex space-x-2">
               <div className=" w-5/12 self-end space-y-2">
-                <Image src="/images/hero5.png" width={374} height={392} alt="opensaas" className="object-cover w-full h-full rounded-2xl" />
+                <Image src="/images/hero5.png" width={374} height={392} alt="rollinscodes.com" className="object-cover w-full h-full rounded-2xl" />
                 <div className="grid grid-cols-2 gap-2">
                   <div className="bg-black rounded-2xl rounded-bl-[200px]"></div>
                   <div>
-                    <Image src="/images/hero.png" alt="opensaas" width={394} height={394} className="object-cover w-full h-full rounded-2xl" />
+                    <Image
+                      src="/images/hero.png"
+                      alt="rollinscodes.com"
+                      width={394}
+                      height={394}
+                      className="object-cover w-full h-full rounded-2xl"
+                    />
                   </div>
                 </div>
               </div>

@@ -53,7 +53,7 @@ const Payment = () => {
         <SheetHeader>
           <SheetTitle>Buy Now</SheetTitle>
           <SheetDescription>
-            Place your order here and rest easy. Click 'Buy Now' to confirm, and your items will be swiftly delivered to your doorstep
+            Place your order here and rest easy. Click Buy Now to confirm, and your items will be swiftly delivered to your doorstep
           </SheetDescription>
         </SheetHeader>
         <Form {...form}>

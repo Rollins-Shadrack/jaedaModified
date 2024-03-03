@@ -25,7 +25,13 @@ const News = () => {
                     </div>
                   </div>
                   <div className="w-6/12">
-                    <Image src="/images/hero3.png" className="object-cover h-full w-full rounded-b-xl" alt="jaeda" height={640} width={626} />
+                    <Image
+                      src="/images/hero3.png"
+                      className="object-cover h-full w-full rounded-b-xl"
+                      alt="rollinscodes.com"
+                      height={640}
+                      width={626}
+                    />
                   </div>
                 </div>
               </div>
@@ -41,7 +47,7 @@ const News = () => {
                       width={547}
                       height={573}
                       className="object-cover h-full w-full rounded-r-xl shadow-xl"
-                      alt="jaeda"
+                      alt="rollinscodes.com"
                     />
                   </div>
                   <div>
@@ -59,13 +65,13 @@ const News = () => {
             <Card className="rounded-xl">
               <div className="flex items-center justify-center py-5">
                 <div className="h-[150px] w-[150px] shadow-xlrounded-full flex items-center justify-center">
-                  <Image src="/images/chaidiamond.png" width={200} height={200} className="h-[130px] w-[130px] rounded-full" />
+                  <Image src="/images/chaidiamond.png" width={200} height={200} className="h-[130px] w-[130px] rounded-full" alt="rollinscodes.com" />
                 </div>
               </div>
               <h1 className="font-bold text-xl lg:text-3xl text-center mb-5">Partnership with Chai Diamond Investment Ltd</h1>
               <p className="px-5 text-center tracking-wide mb-5">
-                Jaeda & Associates is proud to announce the partnership with Chai Diamond investment Ltd. We are contracted to dispose land for
-                current ongoing projects in MURANG'A COUNTY & BOMET COUNTY
+                Jaeda and Associates is proud to announce the partnership with Chai Diamond investment Ltd. We are contracted to dispose land for
+                current ongoing projects in MURANGA COUNTY & BOMET COUNTY
               </p>
             </Card>
           </div>

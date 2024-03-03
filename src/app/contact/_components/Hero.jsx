@@ -15,14 +15,14 @@ const Hero = () => {
               <span className="text-xl md:text-3xl">Elevate Your Shopping Experience</span>
             </h1>
             <p className="my-3 text-white">
-              Whether you have questions about our latest merchandise, need assistance with an order, or simply want to share your feedback, we're
+              Whether you have questions about our latest merchandise, need assistance with an order, or simply want to share your feedback, we are
               here for you. Reach out and let us ensure your shopping journey with us is nothing short of exceptional.
             </p>
             <div className="grid grid-cols-7 gap-4 my-5">
               {socialContent &&
                 socialContent.map((social, idx) => (
                   <a key={idx} href={social.link} target="blank">
-                    <Image src={social.img} width={30} height={30} />
+                    <Image src={social.img} width={30} height={30} alt="rollinscodes.com" />
                   </a>
                 ))}
             </div>

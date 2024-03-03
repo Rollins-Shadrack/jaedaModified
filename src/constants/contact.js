@@ -1,8 +1,7 @@
-import { HelpCircle, MailOpen, MessageSquareDot } from "lucide-react";
+
 
 export const contactCards = [
   {
-    icon: HelpCircle,
     title: "Knowledgebase",
     desc: "We're here to help with any questions.",
     cta: {
@@ -11,7 +10,6 @@ export const contactCards = [
     },
   },
   {
-    icon: MessageSquareDot,
     title: "FAQ",
     desc: "Search our FAQ for answers to anything you might ask.",
     cta: {
@@ -20,7 +18,6 @@ export const contactCards = [
     },
   },
   {
-    icon: MailOpen,
     title: "Contact us by email",
     desc: "If you wish to write us an email instead please use",
     cta: {

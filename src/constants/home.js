@@ -30,14 +30,6 @@ export const socialContent = [
 ];
 
 export const servicesContent = {
-  "Business Management": {
-    icon: "/images/management.png",
-    img: "https://images.unsplash.com/photo-1537861295351-76bb831ece99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-    title: "Business Management",
-    desc: "Boost your business with strategic goal-setting, revenue planning, market initiatives, account research, lead pursuit, and proposal crafting",
-    addInfo:
-      "At Jaeda & Associates, we excel in setting ambitious goals, crafting strategic plans for business growth, and developing impactful quotes for clients. Partner with us to build strong relationships, understand buyer personas, elevate brand awareness, and explore growth opportunities. Our sales team leads product/service sales, converts leads, and streamlines efforts for business development success.",
-  },
   "Distribution and Marketing": {
     icon: "/images/marketing.png",
     img: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGRpc3RyaWJ1dGlvbiUyMGFuZCUyMG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",

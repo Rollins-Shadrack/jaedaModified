@@ -12,7 +12,7 @@ const AboutUs = () => {
           </div>
           <div className="lg:w-7/12 w-full text-gray-700">
             <p className="tracking-wide text-lg">
-              Since its founding in 2019, Jaeda & associates Limited has grown to become one of Kenya's top business, actively engaged in the
+              Since its founding in 2019, Jaeda and associates Limited has grown to become one of Kenyas top business, actively engaged in the
               production and distribution of clothing, goods merchandising, Import support, facilities management, land sales, training and
               development and financial advisory services
             </p>
